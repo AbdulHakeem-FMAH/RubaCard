@@ -50,13 +50,14 @@ img {
 }
 
 .card {
-  width: 320px;
-  height: 400px;
+  width: 400px;
+  height: 600px;
   background-color: var(--dark-color);
   border-radius: 1rem;
   padding: 4rem 2rem 0;
   color: var(--white-color);
   overflow-y: hidden;
+  cursor: pointer;
 }
 
 .card__img {
@@ -73,6 +74,7 @@ img {
 .card__title {
   font-size: var(--h1-font-size);
   color: var(--first-color);
+  margin-top: 20px;
   margin-bottom: .5rem;
 }
 
